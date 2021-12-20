@@ -30,7 +30,7 @@ Roslyn 是微软为 C# 设计的一套分析器，它具有很强的扩展性。
 ![](/static/posts/2018-03-18-18-51-26.png)  
 ▲ 在 Visual Studio 新建项目，选择“控制台程序(.NET Framework)”
 
-在目前（{% include date.html date=page.date %}），如果我们需要像本文一样分析现有的解决方案和项目，那么 **.NET Framework 是必须的**；如果只是分析单个文件，那么也可以选择 .NET Core，参见 [Roslyn 入门：使用 .NET Core 版本的 Roslyn 编译并执行跨平台的静态的源码](/post/compile-and-invoke-code-using-roslyn)。
+在目前，如果我们需要像本文一样分析现有的解决方案和项目，那么 **.NET Framework 是必须的**；如果只是分析单个文件，那么也可以选择 .NET Core，参见 [Roslyn 入门：使用 .NET Core 版本的 Roslyn 编译并执行跨平台的静态的源码](/post/compile-and-invoke-code-using-roslyn)。
 
 当然，如果你有一个现成的 .NET Core 项目，可以通过修改 .csproj 文件改成 .NET Framework 的：
 
